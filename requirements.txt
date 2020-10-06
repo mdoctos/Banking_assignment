@@ -42,7 +42,6 @@ scipy==1.4.1
 six==1.15.0
 sklearn==0.0
 tensorboard==2.2.2
-tensorboard-plugin-wit==1.6.0
 tensorflow==2.1.0
 tensorflow-estimator==2.1.0
 tensorflow-gpu==2.2.0
