@@ -11,7 +11,7 @@ import joblib
 
 from sklearn.preprocessing import StandardScaler
 app = Flask(__name__)
-model = joblib.load('finalized_model.sav')
+model = joblib.load('finalized_model1.sav')
 @app.route('/')
 def Home():
     return render_template('index.html')
