@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Banking-Prediction</title>
+    </head>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Banking-Prediction</title>
+        
+    </head>
+
+    <body>
+
+        <!-- Website Title -->
+    	<div class="container">
+            <h2 class='container-heading'><span class='heading_first'>Predicting using INputs 
+            <div class='description'>
+    			<p>A Machine Learning Web App, Built with Flask, Deployed using Heroku.</p>
+    		</div>
+    	</div>
+
+        <!-- Prediction Area -->
+        <div class="prediction-area">
+
+            
+               
+
+            <!-- Prediction Form -->
+            <div class='div2'>
+                <form action="\predict" method="post">
+    
+                    <select class="form-input align-center" name="job">
+                        <option value="none">--- Select a job ---</option>
+                        <option value="entrepreneur">entrepreneur</option>
+                        <option value="management">management</option>
+                        <option value="admin">admin</option>
+                        <option value="self-employed">self-employed</option>
+                        <option value="blue-collar">blue-collar</option>
+                        <option value="unemployed">unemployed</option>
+                        <option value="student">student</option>
+                         <option value="technician">technician</option>
+                          <option value="services">services</option>
+                           <option value="retired">retired</option>
+                            <option value="housemaid">housemaid</option>
+                            <option value="unknown">unknown</option>
+                        
+                        
+                        
+                        
+                    </select><br>
+                    <select class="form-input align-center" name="education">
+                        <option value="none">--- Select education ---</option>
+                        <option value="primary">primary</option>
+                        <option value="secondary">secondary</option>
+                        <option value="tertiary">tertiary</option>
+                     
+                        
+                    </select><br>
+                    <option value="none">--- type age ---</option>
+                    <input class="form-input" type="text" name="age" <br>
+                    <option value="none">--- type balance ---</option>
+                    <input class="form-input" type="text" name="balance"<br>
+                    <option value="none">--- type housing 1 or 0 ---</option>
+                    <input class="form-input" type="text" name="housing"<br>
+                    <option value="none">--- type loan 1 or 0 ---</option>
+                    <input class="form-input" type="text" name="loan"<br>
+                    <option value="none">--- type default 1 or 0 ---</option>
+                    <input class="form-input" type="text" name="default"<br>
+			<input type="submit" class="myButton" value="Predict ">
+			
+			<h3>{{prediction_texts}}</h3>
+			
+        	</form>
+            </div>
+
+   
+    </body>
+</html>

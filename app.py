@@ -7,18 +7,21 @@ topic:Banking
 """
 from flask import Flask, render_template, request
 import joblib
+from flask_cors import cross_origin
 
 
-from sklearn.preprocessing import StandardScaler
+
 app = Flask(__name__)
 model = joblib.load('finalized_model1.sav')
 @app.route('/')
+@cross_origin()
+
 def Home():
     return render_template('index.html')
 
 
-standard_to = StandardScaler()
-@app.route("/predict", methods=['POST'])
+@app.route("/predict", methods=["GET","POST"])
+
 def predict():
     
     if request.method == 'POST':
