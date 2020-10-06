@@ -12,6 +12,7 @@ click==7.1.2
 colorama==0.4.3
 cryptography @ file:///C:/ci/cryptography_1601046913206/work
 decorator==4.4.2
+Flask==1.1.2
 gast==0.3.3
 google-auth @ file:///tmp/build/80754af9/google-auth_1600960338579/work
 google-auth-oauthlib==0.4.1
@@ -23,13 +24,17 @@ importlib-metadata @ file:///C:/ci/importlib-metadata_1593446525189/work
 ipykernel==5.3.4
 ipython==7.18.1
 ipython-genutils==0.2.0
+itsdangerous==1.1.0
 jedi==0.17.2
+Jinja2==2.11.2
+joblib==0.17.0
 jupyter-client==6.1.7
 jupyter-core==4.6.3
 Keras==2.4.3
 Keras-Applications @ file:///tmp/build/80754af9/keras-applications_1594366238411/work
 Keras-Preprocessing==1.1.0
 Markdown @ file:///C:/ci/markdown_1597415185889/work
+MarkupSafe==1.1.1
 mkl-fft==1.2.0
 mkl-random==1.1.0
 mkl-service==2.3.0
@@ -55,8 +60,10 @@ pyzmq==19.0.2
 requests @ file:///tmp/build/80754af9/requests_1592841827918/work
 requests-oauthlib==1.3.0
 rsa @ file:///tmp/build/80754af9/rsa_1596998415516/work
+scikit-learn==0.23.2
 scipy==1.4.1
 six==1.15.0
+sklearn==0.0
 tensorboard==2.2.2
 tensorboard-plugin-wit==1.6.0
 tensorflow==2.1.0
@@ -64,6 +71,7 @@ tensorflow-estimator==2.1.0
 tensorflow-gpu==2.2.0
 tensorflow-gpu-estimator==2.2.0
 termcolor==1.1.0
+threadpoolctl==2.1.0
 tornado==6.0.4
 traitlets==5.0.3
 urllib3 @ file:///tmp/build/80754af9/urllib3_1597086586889/work
