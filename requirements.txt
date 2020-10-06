@@ -13,9 +13,6 @@ gast==0.3.3
 google-auth-oauthlib==0.4.1
 google-pasta==0.2.0
 h5py==2.10.0
-ipykernel==5.3.4
-ipython==7.18.1
-ipython-genutils==0.2.0
 itsdangerous==1.1.0
 jedi==0.17.2
 Jinja2==2.11.2
